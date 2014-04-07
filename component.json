@@ -1,0 +1,9 @@
+{
+  "name": "drone-swarm",
+  "description": "Embrace the AR Drone swarm... using node.js",
+  "version": "0.1.0",
+  "dependencies": {
+    "jquery": "~1.7.2",
+    "bootstrap.css": "~2.1.1"
+  }
+}

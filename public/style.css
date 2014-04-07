@@ -1,0 +1,136 @@
+body {
+  background: url(/low_contrast_linen_@2X.png);
+  background-size: 256px;
+}
+
+#drones {
+  border: 1px solid;
+}
+
+#drones > .drone {
+  background: url(/furley_bg_@2X.png);
+  background-size: 600px;
+  border: 1px solid #333;
+  width: 340px;
+  height: 440px;
+  float: left;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: inset 0px 2px 2px #fff, inset 0px -2px 2px #333, 5px 5px 5px #303030;
+}
+#drones > .drone:hover {
+  border: 1px dashed #aaa;
+}
+#drones > .drone:active {
+}
+#drones > .drone.control {
+}
+
+.drone > .ip {
+  float: right;
+  font-size: 10px;
+  margin: 3px 10px !important;
+}
+
+.drone > .camera {
+  background: url(/standby.png) center center no-repeat;
+  clear: both;
+  margin: 0 10px;
+
+  background-size: 320px;
+  width: 320px;
+  height: 180px;
+}
+
+.drone > .navdata {
+  margin: 0 10px;
+}
+
+.drone > .navdata .battery {
+  margin: 5px 0px;
+}
+
+#oculus-stream {
+  display: none;
+  background: #000;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  
+}
+
+.oculus-eye {
+  position: fixed;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: black !important;
+  display: none;
+  overflow: hidden;
+}
+
+#oculus-left {
+  text-align: right;
+  left: 0;
+}
+
+#oculus-right {
+  text-align: left;
+  right: 0;
+}
+
+#oculus-stream-left {
+  margin-right: -100px !important;
+}
+
+#oculus-stream-right {
+  margin-left: -100px !important;
+}
+
+#oculus-stream-left, #oculus-stream-right {
+  margin-top: 30%;
+  height: 50%;
+}
+
+.oculus-osd {
+  opacity: 0.5;
+  background: black;
+  color: white;
+  z-index: 100;
+  position: absolute;
+  top: 300px;
+}
+
+#oculus-osd-left {
+  right: 200px;
+}
+#oculus-osd-right {
+  right: 350px;
+}
+
+.oculus-control {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  position: absolute;
+  z-index: 101;
+  margin-top: 80%;
+  background: url(drone-ui.jpg) center no-repeat #fff;
+  background-size: 150px;
+}
+
+.oculus-control-pad {
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background: black;
+  opacity: 0.75;
+}
+
+#oculus-control-left {
+  right: 200px;
+}
+
+#oculus-control-right {
+  left: 200px;
+}
