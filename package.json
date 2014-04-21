@@ -3,8 +3,9 @@
   "description": "Oculus Rift + AR Drone 2.0 controller",
   "version": "0.1.0",
   "dependencies": {
-    "express": "~3.0.0",
     "ar-drone": "~0.0.5",
+    "dronestream": "~1.1.1",
+    "express": "~3.0.0",
     "faye": "~0.8.9",
     "underscore": "~1.4.4"
   },
