@@ -39,7 +39,7 @@ app.configure ->
   app.set('port', process.env.PORT || 3000)
   app.use(app.router)
   app.use(express.static(path.join(__dirname, 'public')))
-  app.use("/components", express.static(path.join(__dirname, 'components')))
+  app.use("/bower_components", express.static(path.join(__dirname, 'bower_components')))
 server = require("http").createServer(app)
 
 # Initialize Sockets
